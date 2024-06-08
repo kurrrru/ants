@@ -1,0 +1,16 @@
+# vscode setting
+.vscode/
+
+# test case
+*.in
+*.out
+
+# executable
+*.exe
+*.out
+
+# test generator
+gn.*
+
+# answer
+ans.*
