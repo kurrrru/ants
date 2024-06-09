@@ -22,8 +22,5 @@ int main()
 				dp[i + 1][j] = max(dp[i][j], dp[i][j - w[i]] + v[i]);
 		}
 	}
-	int ans = 0;
-	for (int i = 0; i <= W; i++)
-		ans = max(ans, dp[n][i]);
-	cout << ans << endl;
+	cout << dp[n][W] << endl;
 }
